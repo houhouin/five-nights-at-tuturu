@@ -36,11 +36,11 @@ let tabletImage = new Image();
 tabletImage.src = "img/tablet.png";
 
 myAudio = new Audio('audio/theme.mp3'); 
+
 if (typeof myAudio.loop == 'boolean')
 {
     myAudio.loop = true;
-}
-else
+} else
 {
     myAudio.addEventListener('ended', function() {
         this.currentTime = 0;

@@ -4,7 +4,7 @@ class Enemy {
 
     setTimeout(() => {
       this.jumpscare = true;
-    }, 5000)
+    }, ENEMY_TIME_TO_KILL)
     
     this.shown = false;
     this.jumpscare = false;
